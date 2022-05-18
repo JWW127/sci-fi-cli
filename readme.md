@@ -14,7 +14,7 @@ SCI FI CLI is cli app that returns random sci-fi quotes from my api!
 
 `cd sci-fi-cli && npm install`
 
-### Last use options call and use options
+### Last call and use options
 
 get one sci-fi quote
 `sci --one` + enter
