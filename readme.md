@@ -2,7 +2,7 @@
 
 ## 🛸What is that?🛸
 
-SCI FI CLI is cli app that returns random sci-fi quotes from my api!
+SCI FI CLI is cli app that returns random sci-fi quotes from my api! If you just want to call the api for you're own testing you can find it here `sci-fi-api.netlify.app`
 
 ## 🤖How to use?🤖
 
@@ -16,9 +16,9 @@ SCI FI CLI is cli app that returns random sci-fi quotes from my api!
 
 ### Last call and use options
 
-get one sci-fi quote
-`sci --one` + enter
-get many sci-fi quotes
-`sci` + enter
+- get one sci-fi quote
+  `sci --one` + enter
+- get many sci-fi quotes
+  `sci` + enter
 
 ![ufo cow sign](https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png)
