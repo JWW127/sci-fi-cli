@@ -2,7 +2,7 @@
 
 ## 🛸What is that?🛸
 
-SCI FI CLI is cli app that returns random sci-fi quotes from my api! If you just want to call the api for you're own testing you can find it here `sci-fi-api.netlify.app`
+SCI FI CLI is cli app that returns random sci-fi quotes from my api! If you just want to call the api for your own testing you can find it here `sci-fi-api.netlify.app`
 
 ## 🤖How to use?🤖
 
