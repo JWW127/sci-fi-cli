@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "CLI app that returns sci fi quotes.",
   "main": "index.js",
+  "repository": "jww127/sci-fi-cli",
   "scripts": {},
   "bin": {
     "sci": "./sci.mjs"
@@ -12,7 +13,7 @@
     "sci-fi-cli"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.2.4",
     "yargs": "^17.5.1"
