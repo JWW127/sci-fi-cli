@@ -6,13 +6,16 @@ SCI FI CLI is cli app that returns random sci-fi quotes from my api! If you just
 
 ## 🤖How to use?🤖
 
-### First clone repo
+### Install
 
-`git clone https://github.com/JWW127/sci-fi-cli.git`
+##### Option 1 Global
 
-### Next install the package and dependencies
+`npm install -g sci-fi-cli`
 
-`cd sci-fi-cli && npm install`
+##### Option 2 Clone Repo & Install
+
+1.  `git clone https://github.com/JWW127/sci-fi-cli.git`
+2.  `cd sci-fi-cli && npm install`
 
 ### Last call and use options
 
