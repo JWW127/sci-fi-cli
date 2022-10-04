@@ -1,15 +1,16 @@
 {
   "name": "sci-fi-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI app that returns sci fi quotes.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "bin": {
     "sci": "./sci.mjs"
   },
-  "keywords": [],
+  "keywords": [
+    "scificli",
+    "sci-fi-cli"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
