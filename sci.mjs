@@ -2,7 +2,15 @@
 import fetch from "node-fetch";
 import yargs from "yargs";
 
-const { argv } = yargs(process.argv);
+//const { argv } = yargs(process.argv);
+
+const argv = yargs(process.argv.slice(2))
+  .options({
+    one: undefined,
+    many: undefined,
+    help: undefined,
+  })
+  .parse();
 
 // call to get array of sci fi objs
 async function getQuotes() {
@@ -20,7 +28,13 @@ if (argv.one) {
   const sciFiArray = await getQuotes();
   const randomKey = await randomizer(sciFiArray);
   console.log(sciFiArray[randomKey].line);
-} else {
+} else if (argv.many) {
   const sciFiArray = await getQuotes();
   console.log(sciFiArray);
+} else if (argv.help) {
+  console.log(`
+sci -help   : Get help menu
+sci -one    : Get 1 quote
+sci -many   : Get multiple quotes
+`);
 }

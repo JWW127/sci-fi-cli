@@ -16,9 +16,11 @@ SCI FI CLI is cli app that returns random sci-fi quotes from my api! If you just
 
 ### Last call and use options
 
+- get help menu
+  `sci --help`
 - get one sci-fi quote
-  `sci --one` + enter
+  `sci --one`
 - get many sci-fi quotes
-  `sci` + enter
+  `sci --many`
 
 ![ufo cow sign](https://res.cloudinary.com/dpc3zrcvs/image/upload/v1652840477/cows_hmxmxl.png)
